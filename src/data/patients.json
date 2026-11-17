@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "P-001",
+    "name": "Aarav Gupta",
+    "age": 33,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-01)",
+    "bed": "Bed A-01",
+    "status": "Critical",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Septic shock & acute renal dysfunction",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 110,
+      "SBP": 145,
+      "O2Sat": 86,
+      "overall_risk": 82
+    },
+    "vitals": {
+      "heartRate": 110,
+      "spo2": 86,
+      "respiratoryRate": 24,
+      "systolic": 145,
+      "diastolic": 90,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 82,
+      "sepsis": 74,
+      "cardiacArrest": 71,
+      "respiratoryFailure": 73,
+      "mortality": 18,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 75,
+    "medications": [
+      "Furosemide",
+      "Ceftriaxone"
+    ],
+    "labs": [
+      "Lactate 3.7 mmol/L",
+      "WBC 17.5"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-01)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 33,
+        "detail": "Telemetry HR: 113 bpm, SpO2: 87%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 29,
+        "detail": "Diagnosis: Septic shock & acute renal dysfunction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-001-1",
+        "time": "2026-09-06T21:54:59.190Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 113 bpm, BP 149/93 mmHg, SpO2 87%."
+      }
+    ],
+    "lastUpdated": 1788731699191
+  },
+  {
+    "id": "P-002",
+    "name": "Vihaan Deshmukh",
+    "age": 40,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-02)",
+    "bed": "Bed B-02",
+    "status": "Critical",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-CABG surgery recovery",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 111,
+      "SBP": 146,
+      "O2Sat": 87,
+      "overall_risk": 83
+    },
+    "vitals": {
+      "heartRate": 111,
+      "spo2": 87,
+      "respiratoryRate": 25,
+      "systolic": 146,
+      "diastolic": 91,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 83,
+      "sepsis": 75,
+      "cardiacArrest": 71,
+      "respiratoryFailure": 74,
+      "mortality": 18,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 76,
+    "medications": [
+      "Midazolam",
+      "Heparin"
+    ],
+    "labs": [
+      "Lactate 3.7 mmol/L",
+      "WBC 17.6"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-02)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 34,
+        "detail": "Telemetry HR: 114 bpm, SpO2: 88%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 29,
+        "detail": "Diagnosis: Post-CABG surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-002-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 114 bpm, BP 150/94 mmHg, SpO2 88%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-003",
+    "name": "Vivaan Singh",
+    "age": 47,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-03)",
+    "bed": "Bed C-03",
+    "status": "Critical",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute respiratory distress syndrome (ARDS)",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 112,
+      "SBP": 147,
+      "O2Sat": 88,
+      "overall_risk": 84
+    },
+    "vitals": {
+      "heartRate": 112,
+      "spo2": 88,
+      "respiratoryRate": 26,
+      "systolic": 147,
+      "diastolic": 92,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 84,
+      "sepsis": 76,
+      "cardiacArrest": 72,
+      "respiratoryFailure": 75,
+      "mortality": 19,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 77,
+    "medications": [
+      "Insulin (regular)",
+      "Propofol"
+    ],
+    "labs": [
+      "Lactate 3.8 mmol/L",
+      "WBC 17.7"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-03)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 34,
+        "detail": "Telemetry HR: 115 bpm, SpO2: 89%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 30,
+        "detail": "Diagnosis: Acute respiratory distress syndrome (ARDS)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-003-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 115 bpm, BP 151/95 mmHg, SpO2 89%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-004",
+    "name": "Ananya Chatterji",
+    "age": 54,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-04)",
+    "bed": "Bed D-04",
+    "status": "Critical",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Intracranial hemorrhage (Post-craniotomy)",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 113,
+      "SBP": 148,
+      "O2Sat": 89,
+      "overall_risk": 85
+    },
+    "vitals": {
+      "heartRate": 113,
+      "spo2": 89,
+      "respiratoryRate": 27,
+      "systolic": 148,
+      "diastolic": 93,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 85,
+      "sepsis": 77,
+      "cardiacArrest": 73,
+      "respiratoryFailure": 76,
+      "mortality": 19,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 77,
+    "medications": [
+      "Ceftriaxone",
+      "Fentanyl"
+    ],
+    "labs": [
+      "Lactate 3.8 mmol/L",
+      "WBC 17.8"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-04)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 34,
+        "detail": "Telemetry HR: 116 bpm, SpO2: 90%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 30,
+        "detail": "Diagnosis: Intracranial hemorrhage (Post-craniotomy)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-004-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 116 bpm, BP 152/96 mmHg, SpO2 90%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-005",
+    "name": "Diya Bhat",
+    "age": 61,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-05)",
+    "bed": "Bed A-05",
+    "status": "Critical",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Multi-organ dysfunction syndrome",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 114,
+      "SBP": 149,
+      "O2Sat": 90,
+      "overall_risk": 86
+    },
+    "vitals": {
+      "heartRate": 114,
+      "spo2": 90,
+      "respiratoryRate": 28,
+      "systolic": 149,
+      "diastolic": 94,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 86,
+      "sepsis": 78,
+      "cardiacArrest": 74,
+      "respiratoryFailure": 77,
+      "mortality": 19,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 78,
+    "medications": [
+      "Heparin",
+      "Amiodarone"
+    ],
+    "labs": [
+      "Lactate 3.8 mmol/L",
+      "WBC 17.9"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-05)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 35,
+        "detail": "Telemetry HR: 117 bpm, SpO2: 91%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 30,
+        "detail": "Diagnosis: Multi-organ dysfunction syndrome"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-005-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 117 bpm, BP 153/97 mmHg, SpO2 91%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-006",
+    "name": "Ishaan Chawla",
+    "age": 68,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-06)",
+    "bed": "Bed B-06",
+    "status": "Critical",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute anterior wall myocardial infarction",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 115,
+      "SBP": 150,
+      "O2Sat": 91,
+      "overall_risk": 87
+    },
+    "vitals": {
+      "heartRate": 115,
+      "spo2": 91,
+      "respiratoryRate": 29,
+      "systolic": 150,
+      "diastolic": 95,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 87,
+      "sepsis": 79,
+      "cardiacArrest": 75,
+      "respiratoryFailure": 77,
+      "mortality": 19,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 79,
+    "medications": [
+      "Propofol",
+      "Levofloxacin"
+    ],
+    "labs": [
+      "Lactate 3.8 mmol/L",
+      "WBC 18.1"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-06)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 35,
+        "detail": "Telemetry HR: 118 bpm, SpO2: 86%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 31,
+        "detail": "Diagnosis: Acute anterior wall myocardial infarction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-006-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 118 bpm, BP 154/98 mmHg, SpO2 86%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-007",
+    "name": "Sai Sen",
+    "age": 75,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-07)",
+    "bed": "Bed C-07",
+    "status": "Critical",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Decompensated heart failure",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 116,
+      "SBP": 151,
+      "O2Sat": 86,
+      "overall_risk": 88
+    },
+    "vitals": {
+      "heartRate": 116,
+      "spo2": 86,
+      "respiratoryRate": 30,
+      "systolic": 151,
+      "diastolic": 96,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 88,
+      "sepsis": 80,
+      "cardiacArrest": 76,
+      "respiratoryFailure": 78,
+      "mortality": 20,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 80,
+    "medications": [
+      "Fentanyl",
+      "Pantoprazole"
+    ],
+    "labs": [
+      "Lactate 3.9 mmol/L",
+      "WBC 18.2"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-07)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 36,
+        "detail": "Telemetry HR: 119 bpm, SpO2: 87%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 31,
+        "detail": "Diagnosis: Decompensated heart failure"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-007-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 119 bpm, BP 155/99 mmHg, SpO2 87%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-008",
+    "name": "Krishna Pandey",
+    "age": 82,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-08)",
+    "bed": "Bed D-08",
+    "status": "Critical",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe pneumonia with hypoxemia",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 117,
+      "SBP": 152,
+      "O2Sat": 87,
+      "overall_risk": 89
+    },
+    "vitals": {
+      "heartRate": 117,
+      "spo2": 87,
+      "respiratoryRate": 31,
+      "systolic": 152,
+      "diastolic": 97,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 89,
+      "sepsis": 81,
+      "cardiacArrest": 77,
+      "respiratoryFailure": 79,
+      "mortality": 20,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 81,
+    "medications": [
+      "Amiodarone",
+      "Meropenem"
+    ],
+    "labs": [
+      "Lactate 3.9 mmol/L",
+      "WBC 18.3"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-08)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 36,
+        "detail": "Telemetry HR: 120 bpm, SpO2: 88%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 31,
+        "detail": "Diagnosis: Severe pneumonia with hypoxemia"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-008-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 120 bpm, BP 156/100 mmHg, SpO2 88%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-009",
+    "name": "Arjun Choudhury",
+    "age": 31,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-09)",
+    "bed": "Bed A-09",
+    "status": "Critical",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute necrotizing pancreatitis",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 118,
+      "SBP": 153,
+      "O2Sat": 88,
+      "overall_risk": 90
+    },
+    "vitals": {
+      "heartRate": 118,
+      "spo2": 88,
+      "respiratoryRate": 24,
+      "systolic": 153,
+      "diastolic": 98,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 90,
+      "sepsis": 82,
+      "cardiacArrest": 77,
+      "respiratoryFailure": 80,
+      "mortality": 20,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 82,
+    "medications": [
+      "Levofloxacin",
+      "Vasopressin"
+    ],
+    "labs": [
+      "Lactate 3.9 mmol/L",
+      "WBC 18.4"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-09)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 36,
+        "detail": "Telemetry HR: 121 bpm, SpO2: 89%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 32,
+        "detail": "Diagnosis: Acute necrotizing pancreatitis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-009-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 121 bpm, BP 157/101 mmHg, SpO2 89%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-010",
+    "name": "Rajesh Goyal",
+    "age": 38,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-10)",
+    "bed": "Bed B-10",
+    "status": "Critical",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Diabetic ketoacidosis with metabolic acidosis",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 119,
+      "SBP": 154,
+      "O2Sat": 89,
+      "overall_risk": 91
+    },
+    "vitals": {
+      "heartRate": 119,
+      "spo2": 89,
+      "respiratoryRate": 25,
+      "systolic": 154,
+      "diastolic": 99,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 91,
+      "sepsis": 83,
+      "cardiacArrest": 78,
+      "respiratoryFailure": 81,
+      "mortality": 20,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 83,
+    "medications": [
+      "Pantoprazole",
+      "Norepinephrine"
+    ],
+    "labs": [
+      "Lactate 4.0 mmol/L",
+      "WBC 18.5"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-10)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 37,
+        "detail": "Telemetry HR: 122 bpm, SpO2: 90%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 32,
+        "detail": "Diagnosis: Diabetic ketoacidosis with metabolic acidosis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-010-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 122 bpm, BP 158/102 mmHg, SpO2 90%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-011",
+    "name": "Suresh Patel",
+    "age": 45,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-11)",
+    "bed": "Bed C-11",
+    "status": "Critical",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-op abdominal surgery recovery",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 120,
+      "SBP": 155,
+      "O2Sat": 90,
+      "overall_risk": 92
+    },
+    "vitals": {
+      "heartRate": 120,
+      "spo2": 90,
+      "respiratoryRate": 26,
+      "systolic": 155,
+      "diastolic": 90,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 92,
+      "sepsis": 84,
+      "cardiacArrest": 79,
+      "respiratoryFailure": 82,
+      "mortality": 20,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 84,
+    "medications": [
+      "Meropenem",
+      "Furosemide"
+    ],
+    "labs": [
+      "Lactate 4.0 mmol/L",
+      "WBC 18.7"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-11)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 37,
+        "detail": "Telemetry HR: 123 bpm, SpO2: 91%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 33,
+        "detail": "Diagnosis: Post-op abdominal surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-011-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 123 bpm, BP 159/103 mmHg, SpO2 91%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-012",
+    "name": "Priya Iyer",
+    "age": 52,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-12)",
+    "bed": "Bed D-12",
+    "status": "Critical",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Polytrauma with bilateral rib fractures",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 121,
+      "SBP": 156,
+      "O2Sat": 91,
+      "overall_risk": 93
+    },
+    "vitals": {
+      "heartRate": 121,
+      "spo2": 91,
+      "respiratoryRate": 27,
+      "systolic": 156,
+      "diastolic": 91,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 93,
+      "sepsis": 85,
+      "cardiacArrest": 80,
+      "respiratoryFailure": 83,
+      "mortality": 21,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 85,
+    "medications": [
+      "Vasopressin",
+      "Midazolam"
+    ],
+    "labs": [
+      "Lactate 4.0 mmol/L",
+      "WBC 18.8"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-12)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 38,
+        "detail": "Telemetry HR: 124 bpm, SpO2: 86%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 33,
+        "detail": "Diagnosis: Polytrauma with bilateral rib fractures"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-012-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 124 bpm, BP 160/104 mmHg, SpO2 86%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-013",
+    "name": "Sunita Kulkarni",
+    "age": 59,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-13)",
+    "bed": "Bed A-13",
+    "status": "Critical",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Ischemic stroke with hemiparesis",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 122,
+      "SBP": 157,
+      "O2Sat": 86,
+      "overall_risk": 82
+    },
+    "vitals": {
+      "heartRate": 122,
+      "spo2": 86,
+      "respiratoryRate": 28,
+      "systolic": 157,
+      "diastolic": 92,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 82,
+      "sepsis": 74,
+      "cardiacArrest": 81,
+      "respiratoryFailure": 84,
+      "mortality": 21,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 86,
+    "medications": [
+      "Norepinephrine",
+      "Insulin (regular)"
+    ],
+    "labs": [
+      "Lactate 4.0 mmol/L",
+      "WBC 18.9"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-13)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 38,
+        "detail": "Telemetry HR: 125 bpm, SpO2: 87%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 33,
+        "detail": "Diagnosis: Ischemic stroke with hemiparesis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-013-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 125 bpm, BP 161/105 mmHg, SpO2 87%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-014",
+    "name": "Lakshmi Joshi",
+    "age": 66,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-14)",
+    "bed": "Bed B-14",
+    "status": "Critical",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute kidney injury on CRRT",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 123,
+      "SBP": 158,
+      "O2Sat": 87,
+      "overall_risk": 83
+    },
+    "vitals": {
+      "heartRate": 123,
+      "spo2": 87,
+      "respiratoryRate": 29,
+      "systolic": 158,
+      "diastolic": 93,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 83,
+      "sepsis": 75,
+      "cardiacArrest": 82,
+      "respiratoryFailure": 84,
+      "mortality": 21,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 86,
+    "medications": [
+      "Furosemide",
+      "Ceftriaxone"
+    ],
+    "labs": [
+      "Lactate 4.1 mmol/L",
+      "WBC 19.0"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-14)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 38,
+        "detail": "Telemetry HR: 126 bpm, SpO2: 88%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 34,
+        "detail": "Diagnosis: Acute kidney injury on CRRT"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-014-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 126 bpm, BP 162/92 mmHg, SpO2 88%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-015",
+    "name": "Pooja Reddy",
+    "age": 73,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-15)",
+    "bed": "Bed C-15",
+    "status": "Critical",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe asthma exacerbation",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 124,
+      "SBP": 159,
+      "O2Sat": 88,
+      "overall_risk": 84
+    },
+    "vitals": {
+      "heartRate": 124,
+      "spo2": 88,
+      "respiratoryRate": 30,
+      "systolic": 159,
+      "diastolic": 94,
+      "temperature": 38.3
+    },
+    "risk": {
+      "overall": 84,
+      "sepsis": 76,
+      "cardiacArrest": 82,
+      "respiratoryFailure": 85,
+      "mortality": 21,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 87,
+    "medications": [
+      "Midazolam",
+      "Heparin"
+    ],
+    "labs": [
+      "Lactate 4.1 mmol/L",
+      "WBC 19.1"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-15)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 39,
+        "detail": "Telemetry HR: 127 bpm, SpO2: 89%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 34,
+        "detail": "Diagnosis: Severe asthma exacerbation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-015-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 127 bpm, BP 163/93 mmHg, SpO2 89%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-016",
+    "name": "Neha Mukherji",
+    "age": 80,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-01)",
+    "bed": "Bed D-01",
+    "status": "Elevated",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Septic shock & acute renal dysfunction",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 101,
+      "SBP": 137,
+      "O2Sat": 92,
+      "overall_risk": 71
+    },
+    "vitals": {
+      "heartRate": 101,
+      "spo2": 92,
+      "respiratoryRate": 23,
+      "systolic": 137,
+      "diastolic": 87,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 71,
+      "sepsis": 61,
+      "cardiacArrest": 59,
+      "respiratoryFailure": 61,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 62,
+    "medications": [
+      "Insulin (regular)",
+      "Propofol"
+    ],
+    "labs": [
+      "Lactate 3.3 mmol/L",
+      "WBC 15.8"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-01)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 28,
+        "detail": "Telemetry HR: 96 bpm, SpO2: 93%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 24,
+        "detail": "Diagnosis: Septic shock & acute renal dysfunction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-016-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 96 bpm, BP 134/90 mmHg, SpO2 93%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-017",
+    "name": "Kavita Bhasin",
+    "age": 29,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-02)",
+    "bed": "Bed A-02",
+    "status": "Elevated",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-CABG surgery recovery",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 102,
+      "SBP": 138,
+      "O2Sat": 93,
+      "overall_risk": 72
+    },
+    "vitals": {
+      "heartRate": 102,
+      "spo2": 93,
+      "respiratoryRate": 20,
+      "systolic": 138,
+      "diastolic": 88,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 72,
+      "sepsis": 62,
+      "cardiacArrest": 60,
+      "respiratoryFailure": 62,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 63,
+    "medications": [
+      "Ceftriaxone",
+      "Fentanyl"
+    ],
+    "labs": [
+      "Lactate 3.3 mmol/L",
+      "WBC 15.9"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-02)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 28,
+        "detail": "Telemetry HR: 97 bpm, SpO2: 94%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 25,
+        "detail": "Diagnosis: Post-CABG surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-017-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 97 bpm, BP 135/91 mmHg, SpO2 94%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-018",
+    "name": "Rohan Dutta",
+    "age": 36,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-03)",
+    "bed": "Bed B-03",
+    "status": "Elevated",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute respiratory distress syndrome (ARDS)",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 103,
+      "SBP": 139,
+      "O2Sat": 94,
+      "overall_risk": 73
+    },
+    "vitals": {
+      "heartRate": 103,
+      "spo2": 94,
+      "respiratoryRate": 21,
+      "systolic": 139,
+      "diastolic": 89,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 73,
+      "sepsis": 63,
+      "cardiacArrest": 60,
+      "respiratoryFailure": 62,
+      "mortality": 16,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 64,
+    "medications": [
+      "Heparin",
+      "Amiodarone"
+    ],
+    "labs": [
+      "Lactate 3.3 mmol/L",
+      "WBC 16.0"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-03)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 28,
+        "detail": "Telemetry HR: 98 bpm, SpO2: 92%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 25,
+        "detail": "Diagnosis: Acute respiratory distress syndrome (ARDS)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-018-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 98 bpm, BP 136/92 mmHg, SpO2 92%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-019",
+    "name": "Aditya Trivedi",
+    "age": 43,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-04)",
+    "bed": "Bed C-04",
+    "status": "Elevated",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Intracranial hemorrhage (Post-craniotomy)",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 104,
+      "SBP": 140,
+      "O2Sat": 92,
+      "overall_risk": 74
+    },
+    "vitals": {
+      "heartRate": 104,
+      "spo2": 92,
+      "respiratoryRate": 22,
+      "systolic": 140,
+      "diastolic": 84,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 74,
+      "sepsis": 64,
+      "cardiacArrest": 61,
+      "respiratoryFailure": 63,
+      "mortality": 16,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 65,
+    "medications": [
+      "Propofol",
+      "Levofloxacin"
+    ],
+    "labs": [
+      "Lactate 3.4 mmol/L",
+      "WBC 16.1"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-04)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 29,
+        "detail": "Telemetry HR: 99 bpm, SpO2: 93%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 25,
+        "detail": "Diagnosis: Intracranial hemorrhage (Post-craniotomy)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-019-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 99 bpm, BP 137/93 mmHg, SpO2 93%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-020",
+    "name": "Amit Aggarwal",
+    "age": 50,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-05)",
+    "bed": "Bed D-05",
+    "status": "Elevated",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Multi-organ dysfunction syndrome",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 105,
+      "SBP": 141,
+      "O2Sat": 93,
+      "overall_risk": 75
+    },
+    "vitals": {
+      "heartRate": 105,
+      "spo2": 93,
+      "respiratoryRate": 23,
+      "systolic": 141,
+      "diastolic": 85,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 75,
+      "sepsis": 65,
+      "cardiacArrest": 62,
+      "respiratoryFailure": 64,
+      "mortality": 16,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 66,
+    "medications": [
+      "Fentanyl",
+      "Pantoprazole"
+    ],
+    "labs": [
+      "Lactate 3.4 mmol/L",
+      "WBC 16.3"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-05)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 29,
+        "detail": "Telemetry HR: 100 bpm, SpO2: 94%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 26,
+        "detail": "Diagnosis: Multi-organ dysfunction syndrome"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-020-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 100 bpm, BP 138/84 mmHg, SpO2 94%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-021",
+    "name": "Vikram Kapoor",
+    "age": 57,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-06)",
+    "bed": "Bed A-06",
+    "status": "Elevated",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute anterior wall myocardial infarction",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 96,
+      "SBP": 142,
+      "O2Sat": 94,
+      "overall_risk": 66
+    },
+    "vitals": {
+      "heartRate": 96,
+      "spo2": 94,
+      "respiratoryRate": 20,
+      "systolic": 142,
+      "diastolic": 86,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 66,
+      "sepsis": 56,
+      "cardiacArrest": 63,
+      "respiratoryFailure": 65,
+      "mortality": 16,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 67,
+    "medications": [
+      "Amiodarone",
+      "Meropenem"
+    ],
+    "labs": [
+      "Lactate 3.4 mmol/L",
+      "WBC 16.4"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-06)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 30,
+        "detail": "Telemetry HR: 101 bpm, SpO2: 92%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 26,
+        "detail": "Diagnosis: Acute anterior wall myocardial infarction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-021-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 101 bpm, BP 139/85 mmHg, SpO2 92%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-022",
+    "name": "Meera Verma",
+    "age": 64,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-07)",
+    "bed": "Bed B-07",
+    "status": "Elevated",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Decompensated heart failure",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 97,
+      "SBP": 143,
+      "O2Sat": 92,
+      "overall_risk": 67
+    },
+    "vitals": {
+      "heartRate": 97,
+      "spo2": 92,
+      "respiratoryRate": 21,
+      "systolic": 143,
+      "diastolic": 87,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 67,
+      "sepsis": 57,
+      "cardiacArrest": 64,
+      "respiratoryFailure": 66,
+      "mortality": 17,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 68,
+    "medications": [
+      "Levofloxacin",
+      "Vasopressin"
+    ],
+    "labs": [
+      "Lactate 3.5 mmol/L",
+      "WBC 16.5"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-07)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 30,
+        "detail": "Telemetry HR: 102 bpm, SpO2: 93%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 26,
+        "detail": "Diagnosis: Decompensated heart failure"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-022-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 102 bpm, BP 140/86 mmHg, SpO2 93%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-023",
+    "name": "Shreya Nair",
+    "age": 71,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-08)",
+    "bed": "Bed C-08",
+    "status": "Elevated",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe pneumonia with hypoxemia",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 98,
+      "SBP": 144,
+      "O2Sat": 93,
+      "overall_risk": 68
+    },
+    "vitals": {
+      "heartRate": 98,
+      "spo2": 93,
+      "respiratoryRate": 22,
+      "systolic": 144,
+      "diastolic": 88,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 68,
+      "sepsis": 58,
+      "cardiacArrest": 65,
+      "respiratoryFailure": 67,
+      "mortality": 17,
+      "trend": "up"
+    },
+    "ecgRhythm": "atrial fibrillation",
+    "sepsisScore": 68,
+    "medications": [
+      "Pantoprazole",
+      "Norepinephrine"
+    ],
+    "labs": [
+      "Lactate 3.5 mmol/L",
+      "WBC 16.6"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-08)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 30,
+        "detail": "Telemetry HR: 103 bpm, SpO2: 94%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 27,
+        "detail": "Diagnosis: Severe pneumonia with hypoxemia"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-023-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 103 bpm, BP 141/87 mmHg, SpO2 94%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-024",
+    "name": "Rahul Rao",
+    "age": 78,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-09)",
+    "bed": "Bed D-09",
+    "status": "Elevated",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute necrotizing pancreatitis",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 99,
+      "SBP": 145,
+      "O2Sat": 94,
+      "overall_risk": 69
+    },
+    "vitals": {
+      "heartRate": 99,
+      "spo2": 94,
+      "respiratoryRate": 23,
+      "systolic": 145,
+      "diastolic": 89,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 69,
+      "sepsis": 59,
+      "cardiacArrest": 65,
+      "respiratoryFailure": 68,
+      "mortality": 17,
+      "trend": "up"
+    },
+    "ecgRhythm": "atrial fibrillation",
+    "sepsisScore": 69,
+    "medications": [
+      "Meropenem",
+      "Furosemide"
+    ],
+    "labs": [
+      "Lactate 3.5 mmol/L",
+      "WBC 16.7"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-09)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 31,
+        "detail": "Telemetry HR: 104 bpm, SpO2: 92%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 27,
+        "detail": "Diagnosis: Acute necrotizing pancreatitis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-024-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 104 bpm, BP 142/88 mmHg, SpO2 92%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-025",
+    "name": "Dev Mehta",
+    "age": 27,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-10)",
+    "bed": "Bed A-10",
+    "status": "Elevated",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Diabetic ketoacidosis with metabolic acidosis",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 100,
+      "SBP": 134,
+      "O2Sat": 92,
+      "overall_risk": 70
+    },
+    "vitals": {
+      "heartRate": 100,
+      "spo2": 92,
+      "respiratoryRate": 20,
+      "systolic": 134,
+      "diastolic": 84,
+      "temperature": 37.6
+    },
+    "risk": {
+      "overall": 70,
+      "sepsis": 60,
+      "cardiacArrest": 66,
+      "respiratoryFailure": 69,
+      "mortality": 17,
+      "trend": "up"
+    },
+    "ecgRhythm": "atrial fibrillation",
+    "sepsisScore": 70,
+    "medications": [
+      "Vasopressin",
+      "Midazolam"
+    ],
+    "labs": [
+      "Lactate 3.5 mmol/L",
+      "WBC 16.9"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-10)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 31,
+        "detail": "Telemetry HR: 105 bpm, SpO2: 93%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 27,
+        "detail": "Diagnosis: Diabetic ketoacidosis with metabolic acidosis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-025-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 105 bpm, BP 143/89 mmHg, SpO2 93%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-026",
+    "name": "Karan Pillai",
+    "age": 34,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-11)",
+    "bed": "Bed B-11",
+    "status": "Stable",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-op abdominal surgery recovery",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 83,
+      "SBP": 123,
+      "O2Sat": 97,
+      "overall_risk": 45
+    },
+    "vitals": {
+      "heartRate": 83,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 123,
+      "diastolic": 77,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 45,
+      "sepsis": 30,
+      "cardiacArrest": 56,
+      "respiratoryFailure": 58,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 59,
+    "medications": [
+      "Norepinephrine",
+      "Insulin (regular)"
+    ],
+    "labs": [
+      "Lactate 3.2 mmol/L",
+      "WBC 15.4"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-11)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 26,
+        "detail": "Telemetry HR: 106 bpm, SpO2: 94%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 23,
+        "detail": "Diagnosis: Post-op abdominal surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-026-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 106 bpm, BP 144/90 mmHg, SpO2 94%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-027",
+    "name": "Manish Saxena",
+    "age": 41,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-12)",
+    "bed": "Bed C-12",
+    "status": "Stable",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Polytrauma with bilateral rib fractures",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 84,
+      "SBP": 124,
+      "O2Sat": 98,
+      "overall_risk": 46
+    },
+    "vitals": {
+      "heartRate": 84,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 124,
+      "diastolic": 78,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 46,
+      "sepsis": 31,
+      "cardiacArrest": 57,
+      "respiratoryFailure": 59,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "sinus tachycardia",
+    "sepsisScore": 60,
+    "medications": [
+      "Furosemide",
+      "Ceftriaxone"
+    ],
+    "labs": [
+      "Lactate 3.2 mmol/L",
+      "WBC 15.5"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-12)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 27,
+        "detail": "Telemetry HR: 107 bpm, SpO2: 92%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 23,
+        "detail": "Diagnosis: Polytrauma with bilateral rib fractures"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-027-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 107 bpm, BP 145/91 mmHg, SpO2 92%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-028",
+    "name": "Nikhil Dutt",
+    "age": 48,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-13)",
+    "bed": "Bed D-13",
+    "status": "Stable",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Ischemic stroke with hemiparesis",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 85,
+      "SBP": 125,
+      "O2Sat": 96,
+      "overall_risk": 47
+    },
+    "vitals": {
+      "heartRate": 85,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 125,
+      "diastolic": 79,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 47,
+      "sepsis": 32,
+      "cardiacArrest": 58,
+      "respiratoryFailure": 60,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 61,
+    "medications": [
+      "Midazolam",
+      "Heparin"
+    ],
+    "labs": [
+      "Lactate 3.2 mmol/L",
+      "WBC 15.7"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-13)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 27,
+        "detail": "Telemetry HR: 94 bpm, SpO2: 93%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 24,
+        "detail": "Diagnosis: Ischemic stroke with hemiparesis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-028-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 94 bpm, BP 132/92 mmHg, SpO2 93%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-029",
+    "name": "Pankaj Mishra",
+    "age": 55,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-14)",
+    "bed": "Bed A-14",
+    "status": "Stable",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute kidney injury on CRRT",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 72,
+      "SBP": 126,
+      "O2Sat": 97,
+      "overall_risk": 48
+    },
+    "vitals": {
+      "heartRate": 72,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 126,
+      "diastolic": 80,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 48,
+      "sepsis": 33,
+      "cardiacArrest": 59,
+      "respiratoryFailure": 61,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 62,
+    "medications": [
+      "Insulin (regular)",
+      "Propofol"
+    ],
+    "labs": [
+      "Lactate 3.3 mmol/L",
+      "WBC 15.8"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-14)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 28,
+        "detail": "Telemetry HR: 95 bpm, SpO2: 94%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 24,
+        "detail": "Diagnosis: Acute kidney injury on CRRT"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-029-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 95 bpm, BP 133/93 mmHg, SpO2 94%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-030",
+    "name": "Ritu Yadav",
+    "age": 62,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-15)",
+    "bed": "Bed B-15",
+    "status": "Stable",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe asthma exacerbation",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 73,
+      "SBP": 127,
+      "O2Sat": 98,
+      "overall_risk": 49
+    },
+    "vitals": {
+      "heartRate": 73,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 127,
+      "diastolic": 81,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 49,
+      "sepsis": 34,
+      "cardiacArrest": 60,
+      "respiratoryFailure": 62,
+      "mortality": 15,
+      "trend": "up"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 63,
+    "medications": [
+      "Ceftriaxone",
+      "Fentanyl"
+    ],
+    "labs": [
+      "Lactate 3.3 mmol/L",
+      "WBC 15.9"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-15)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 28,
+        "detail": "Telemetry HR: 96 bpm, SpO2: 92%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 25,
+        "detail": "Diagnosis: Severe asthma exacerbation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-030-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 96 bpm, BP 134/84 mmHg, SpO2 92%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-031",
+    "name": "Sanjay Bansal",
+    "age": 69,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-01)",
+    "bed": "Bed C-01",
+    "status": "Stable",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Septic shock & acute renal dysfunction",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 74,
+      "SBP": 118,
+      "O2Sat": 96,
+      "overall_risk": 50
+    },
+    "vitals": {
+      "heartRate": 74,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 118,
+      "diastolic": 76,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 50,
+      "sepsis": 35,
+      "cardiacArrest": 45,
+      "respiratoryFailure": 47,
+      "mortality": 12,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 48,
+    "medications": [
+      "Heparin",
+      "Amiodarone"
+    ],
+    "labs": [
+      "Lactate 2.8 mmol/L",
+      "WBC 13.9"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-01)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 21,
+        "detail": "Telemetry HR: 81 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 19,
+        "detail": "Diagnosis: Septic shock & acute renal dysfunction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-031-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 81 bpm, BP 121/83 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-032",
+    "name": "Tarun Sharma",
+    "age": 76,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-02)",
+    "bed": "Bed D-02",
+    "status": "Stable",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-CABG surgery recovery",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 75,
+      "SBP": 119,
+      "O2Sat": 97,
+      "overall_risk": 51
+    },
+    "vitals": {
+      "heartRate": 75,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 119,
+      "diastolic": 77,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 51,
+      "sepsis": 36,
+      "cardiacArrest": 46,
+      "respiratoryFailure": 48,
+      "mortality": 12,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 49,
+    "medications": [
+      "Propofol",
+      "Levofloxacin"
+    ],
+    "labs": [
+      "Lactate 2.8 mmol/L",
+      "WBC 14.0"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-02)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 22,
+        "detail": "Telemetry HR: 82 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 19,
+        "detail": "Diagnosis: Post-CABG surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-032-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 82 bpm, BP 122/76 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-033",
+    "name": "Varun Gupta",
+    "age": 83,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-03)",
+    "bed": "Bed A-03",
+    "status": "Stable",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute respiratory distress syndrome (ARDS)",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 76,
+      "SBP": 120,
+      "O2Sat": 98,
+      "overall_risk": 52
+    },
+    "vitals": {
+      "heartRate": 76,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 120,
+      "diastolic": 78,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 52,
+      "sepsis": 37,
+      "cardiacArrest": 47,
+      "respiratoryFailure": 48,
+      "mortality": 12,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 50,
+    "medications": [
+      "Fentanyl",
+      "Pantoprazole"
+    ],
+    "labs": [
+      "Lactate 2.8 mmol/L",
+      "WBC 14.1"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-03)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 22,
+        "detail": "Telemetry HR: 83 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 19,
+        "detail": "Diagnosis: Acute respiratory distress syndrome (ARDS)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-033-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 83 bpm, BP 123/77 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-034",
+    "name": "Yash Deshmukh",
+    "age": 32,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-04)",
+    "bed": "Bed B-04",
+    "status": "Stable",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Intracranial hemorrhage (Post-craniotomy)",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 77,
+      "SBP": 121,
+      "O2Sat": 96,
+      "overall_risk": 53
+    },
+    "vitals": {
+      "heartRate": 77,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 121,
+      "diastolic": 79,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 53,
+      "sepsis": 38,
+      "cardiacArrest": 48,
+      "respiratoryFailure": 49,
+      "mortality": 12,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 50,
+    "medications": [
+      "Amiodarone",
+      "Meropenem"
+    ],
+    "labs": [
+      "Lactate 2.9 mmol/L",
+      "WBC 14.2"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-04)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 22,
+        "detail": "Telemetry HR: 84 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 20,
+        "detail": "Diagnosis: Intracranial hemorrhage (Post-craniotomy)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-034-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 84 bpm, BP 124/78 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-035",
+    "name": "Anita Singh",
+    "age": 39,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-05)",
+    "bed": "Bed C-05",
+    "status": "Stable",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Multi-organ dysfunction syndrome",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 78,
+      "SBP": 122,
+      "O2Sat": 97,
+      "overall_risk": 54
+    },
+    "vitals": {
+      "heartRate": 78,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 122,
+      "diastolic": 80,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 54,
+      "sepsis": 39,
+      "cardiacArrest": 48,
+      "respiratoryFailure": 50,
+      "mortality": 13,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 51,
+    "medications": [
+      "Levofloxacin",
+      "Vasopressin"
+    ],
+    "labs": [
+      "Lactate 2.9 mmol/L",
+      "WBC 14.3"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-05)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 23,
+        "detail": "Telemetry HR: 85 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 20,
+        "detail": "Diagnosis: Multi-organ dysfunction syndrome"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-035-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 85 bpm, BP 125/79 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-036",
+    "name": "Bhavna Chatterji",
+    "age": 46,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-06)",
+    "bed": "Bed D-06",
+    "status": "Stable",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute anterior wall myocardial infarction",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 79,
+      "SBP": 123,
+      "O2Sat": 98,
+      "overall_risk": 55
+    },
+    "vitals": {
+      "heartRate": 79,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 123,
+      "diastolic": 81,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 55,
+      "sepsis": 40,
+      "cardiacArrest": 49,
+      "respiratoryFailure": 51,
+      "mortality": 13,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 52,
+    "medications": [
+      "Pantoprazole",
+      "Norepinephrine"
+    ],
+    "labs": [
+      "Lactate 2.9 mmol/L",
+      "WBC 14.5"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-06)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 23,
+        "detail": "Telemetry HR: 74 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 20,
+        "detail": "Diagnosis: Acute anterior wall myocardial infarction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-036-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 74 bpm, BP 126/80 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-037",
+    "name": "Deepak Bhat",
+    "age": 53,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-07)",
+    "bed": "Bed A-07",
+    "status": "Stable",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Decompensated heart failure",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 80,
+      "SBP": 124,
+      "O2Sat": 96,
+      "overall_risk": 56
+    },
+    "vitals": {
+      "heartRate": 80,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 124,
+      "diastolic": 76,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 56,
+      "sepsis": 41,
+      "cardiacArrest": 50,
+      "respiratoryFailure": 52,
+      "mortality": 13,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 53,
+    "medications": [
+      "Meropenem",
+      "Furosemide"
+    ],
+    "labs": [
+      "Lactate 3.0 mmol/L",
+      "WBC 14.6"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-07)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 24,
+        "detail": "Telemetry HR: 75 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 21,
+        "detail": "Diagnosis: Decompensated heart failure"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-037-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 75 bpm, BP 127/81 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-038",
+    "name": "Geeta Chawla",
+    "age": 60,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-08)",
+    "bed": "Bed B-08",
+    "status": "Stable",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe pneumonia with hypoxemia",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 81,
+      "SBP": 125,
+      "O2Sat": 97,
+      "overall_risk": 57
+    },
+    "vitals": {
+      "heartRate": 81,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 125,
+      "diastolic": 77,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 57,
+      "sepsis": 42,
+      "cardiacArrest": 51,
+      "respiratoryFailure": 53,
+      "mortality": 13,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 54,
+    "medications": [
+      "Vasopressin",
+      "Midazolam"
+    ],
+    "labs": [
+      "Lactate 3.0 mmol/L",
+      "WBC 14.7"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-08)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 24,
+        "detail": "Telemetry HR: 76 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 21,
+        "detail": "Diagnosis: Severe pneumonia with hypoxemia"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-038-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 76 bpm, BP 128/82 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-039",
+    "name": "Harish Sen",
+    "age": 67,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-09)",
+    "bed": "Bed C-09",
+    "status": "Stable",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute necrotizing pancreatitis",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 82,
+      "SBP": 126,
+      "O2Sat": 98,
+      "overall_risk": 58
+    },
+    "vitals": {
+      "heartRate": 82,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 126,
+      "diastolic": 78,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 58,
+      "sepsis": 43,
+      "cardiacArrest": 52,
+      "respiratoryFailure": 54,
+      "mortality": 13,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 55,
+    "medications": [
+      "Norepinephrine",
+      "Insulin (regular)"
+    ],
+    "labs": [
+      "Lactate 3.0 mmol/L",
+      "WBC 14.8"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-09)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 24,
+        "detail": "Telemetry HR: 77 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 21,
+        "detail": "Diagnosis: Acute necrotizing pancreatitis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-039-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 77 bpm, BP 129/83 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-040",
+    "name": "Indu Pandey",
+    "age": 74,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-10)",
+    "bed": "Bed D-10",
+    "status": "Stable",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Diabetic ketoacidosis with metabolic acidosis",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 83,
+      "SBP": 127,
+      "O2Sat": 96,
+      "overall_risk": 59
+    },
+    "vitals": {
+      "heartRate": 83,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 127,
+      "diastolic": 79,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 59,
+      "sepsis": 44,
+      "cardiacArrest": 36,
+      "respiratoryFailure": 37,
+      "mortality": 9,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 38,
+    "medications": [
+      "Furosemide",
+      "Ceftriaxone"
+    ],
+    "labs": [
+      "Lactate 2.5 mmol/L",
+      "WBC 12.5"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-10)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 17,
+        "detail": "Telemetry HR: 78 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 15,
+        "detail": "Diagnosis: Diabetic ketoacidosis with metabolic acidosis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-040-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 78 bpm, BP 120/76 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-041",
+    "name": "Jitendra Choudhury",
+    "age": 81,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-11)",
+    "bed": "Bed A-11",
+    "status": "Stable",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-op abdominal surgery recovery",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 84,
+      "SBP": 118,
+      "O2Sat": 97,
+      "overall_risk": 40
+    },
+    "vitals": {
+      "heartRate": 84,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 118,
+      "diastolic": 80,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 40,
+      "sepsis": 25,
+      "cardiacArrest": 37,
+      "respiratoryFailure": 38,
+      "mortality": 9,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 39,
+    "medications": [
+      "Midazolam",
+      "Heparin"
+    ],
+    "labs": [
+      "Lactate 2.5 mmol/L",
+      "WBC 12.7"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-11)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 17,
+        "detail": "Telemetry HR: 79 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 15,
+        "detail": "Diagnosis: Post-op abdominal surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-041-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 79 bpm, BP 121/77 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-042",
+    "name": "Kiran Goyal",
+    "age": 30,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-12)",
+    "bed": "Bed B-12",
+    "status": "Stable",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Polytrauma with bilateral rib fractures",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 85,
+      "SBP": 119,
+      "O2Sat": 98,
+      "overall_risk": 41
+    },
+    "vitals": {
+      "heartRate": 85,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 119,
+      "diastolic": 81,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 41,
+      "sepsis": 26,
+      "cardiacArrest": 37,
+      "respiratoryFailure": 39,
+      "mortality": 10,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 40,
+    "medications": [
+      "Insulin (regular)",
+      "Propofol"
+    ],
+    "labs": [
+      "Lactate 2.5 mmol/L",
+      "WBC 12.8"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-12)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 18,
+        "detail": "Telemetry HR: 80 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 15,
+        "detail": "Diagnosis: Polytrauma with bilateral rib fractures"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-042-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 80 bpm, BP 122/78 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-043",
+    "name": "Lalit Patel",
+    "age": 37,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-13)",
+    "bed": "Bed C-13",
+    "status": "Stable",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Ischemic stroke with hemiparesis",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 72,
+      "SBP": 120,
+      "O2Sat": 96,
+      "overall_risk": 42
+    },
+    "vitals": {
+      "heartRate": 72,
+      "spo2": 96,
+      "respiratoryRate": 15,
+      "systolic": 120,
+      "diastolic": 76,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 42,
+      "sepsis": 27,
+      "cardiacArrest": 38,
+      "respiratoryFailure": 40,
+      "mortality": 10,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 41,
+    "medications": [
+      "Ceftriaxone",
+      "Fentanyl"
+    ],
+    "labs": [
+      "Lactate 2.5 mmol/L",
+      "WBC 12.9"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-13)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 18,
+        "detail": "Telemetry HR: 81 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 16,
+        "detail": "Diagnosis: Ischemic stroke with hemiparesis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-043-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 81 bpm, BP 123/79 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-044",
+    "name": "Manoj Iyer",
+    "age": 44,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-14)",
+    "bed": "Bed D-14",
+    "status": "Stable",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute kidney injury on CRRT",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 73,
+      "SBP": 121,
+      "O2Sat": 97,
+      "overall_risk": 43
+    },
+    "vitals": {
+      "heartRate": 73,
+      "spo2": 97,
+      "respiratoryRate": 16,
+      "systolic": 121,
+      "diastolic": 77,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 43,
+      "sepsis": 28,
+      "cardiacArrest": 39,
+      "respiratoryFailure": 40,
+      "mortality": 10,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 41,
+    "medications": [
+      "Heparin",
+      "Amiodarone"
+    ],
+    "labs": [
+      "Lactate 2.6 mmol/L",
+      "WBC 13.0"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-14)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 18,
+        "detail": "Telemetry HR: 82 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 16,
+        "detail": "Diagnosis: Acute kidney injury on CRRT"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-044-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 82 bpm, BP 124/80 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-045",
+    "name": "Nitin Kulkarni",
+    "age": 51,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-15)",
+    "bed": "Bed A-15",
+    "status": "Stable",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe asthma exacerbation",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 74,
+      "SBP": 122,
+      "O2Sat": 98,
+      "overall_risk": 44
+    },
+    "vitals": {
+      "heartRate": 74,
+      "spo2": 98,
+      "respiratoryRate": 17,
+      "systolic": 122,
+      "diastolic": 78,
+      "temperature": 36.8
+    },
+    "risk": {
+      "overall": 44,
+      "sepsis": 29,
+      "cardiacArrest": 40,
+      "respiratoryFailure": 41,
+      "mortality": 10,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 42,
+    "medications": [
+      "Propofol",
+      "Levofloxacin"
+    ],
+    "labs": [
+      "Lactate 2.6 mmol/L",
+      "WBC 13.1"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-15)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 19,
+        "detail": "Telemetry HR: 83 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 16,
+        "detail": "Diagnosis: Severe asthma exacerbation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-045-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 83 bpm, BP 125/81 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-046",
+    "name": "Om Joshi",
+    "age": 58,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-01)",
+    "bed": "Bed B-01",
+    "status": "Recovering",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Septic shock & acute renal dysfunction",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 70,
+      "SBP": 117,
+      "O2Sat": 99,
+      "overall_risk": 20
+    },
+    "vitals": {
+      "heartRate": 70,
+      "spo2": 99,
+      "respiratoryRate": 14,
+      "systolic": 117,
+      "diastolic": 72,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 20,
+      "sepsis": 10,
+      "cardiacArrest": 41,
+      "respiratoryFailure": 42,
+      "mortality": 11,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 43,
+    "medications": [
+      "Fentanyl",
+      "Pantoprazole"
+    ],
+    "labs": [
+      "Lactate 2.6 mmol/L",
+      "WBC 13.3"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-01)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 19,
+        "detail": "Telemetry HR: 84 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 17,
+        "detail": "Diagnosis: Septic shock & acute renal dysfunction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-046-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 84 bpm, BP 126/82 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-047",
+    "name": "Pradeep Reddy",
+    "age": 65,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-02)",
+    "bed": "Bed C-02",
+    "status": "Recovering",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-CABG surgery recovery",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 71,
+      "SBP": 118,
+      "O2Sat": 98,
+      "overall_risk": 21
+    },
+    "vitals": {
+      "heartRate": 71,
+      "spo2": 98,
+      "respiratoryRate": 15,
+      "systolic": 118,
+      "diastolic": 73,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 21,
+      "sepsis": 11,
+      "cardiacArrest": 42,
+      "respiratoryFailure": 43,
+      "mortality": 11,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 44,
+    "medications": [
+      "Amiodarone",
+      "Meropenem"
+    ],
+    "labs": [
+      "Lactate 2.7 mmol/L",
+      "WBC 13.4"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-02)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 20,
+        "detail": "Telemetry HR: 85 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 17,
+        "detail": "Diagnosis: Post-CABG surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-047-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 85 bpm, BP 127/83 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-048",
+    "name": "Rekha Mukherji",
+    "age": 72,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-03)",
+    "bed": "Bed D-03",
+    "status": "Recovering",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute respiratory distress syndrome (ARDS)",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 72,
+      "SBP": 119,
+      "O2Sat": 99,
+      "overall_risk": 22
+    },
+    "vitals": {
+      "heartRate": 72,
+      "spo2": 99,
+      "respiratoryRate": 16,
+      "systolic": 119,
+      "diastolic": 74,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 22,
+      "sepsis": 12,
+      "cardiacArrest": 43,
+      "respiratoryFailure": 44,
+      "mortality": 11,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 45,
+    "medications": [
+      "Levofloxacin",
+      "Vasopressin"
+    ],
+    "labs": [
+      "Lactate 2.7 mmol/L",
+      "WBC 13.5"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-03)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 20,
+        "detail": "Telemetry HR: 74 bpm, SpO2: 95%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 18,
+        "detail": "Diagnosis: Acute respiratory distress syndrome (ARDS)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-048-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 74 bpm, BP 128/76 mmHg, SpO2 95%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-049",
+    "name": "Sarita Bhasin",
+    "age": 79,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-04)",
+    "bed": "Bed A-04",
+    "status": "Recovering",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Intracranial hemorrhage (Post-craniotomy)",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 73,
+      "SBP": 112,
+      "O2Sat": 98,
+      "overall_risk": 23
+    },
+    "vitals": {
+      "heartRate": 73,
+      "spo2": 98,
+      "respiratoryRate": 14,
+      "systolic": 112,
+      "diastolic": 75,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 23,
+      "sepsis": 13,
+      "cardiacArrest": 43,
+      "respiratoryFailure": 45,
+      "mortality": 11,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 46,
+    "medications": [
+      "Pantoprazole",
+      "Norepinephrine"
+    ],
+    "labs": [
+      "Lactate 2.7 mmol/L",
+      "WBC 13.6"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-04)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 20,
+        "detail": "Telemetry HR: 75 bpm, SpO2: 96%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 18,
+        "detail": "Diagnosis: Intracranial hemorrhage (Post-craniotomy)"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-049-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 75 bpm, BP 129/77 mmHg, SpO2 96%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-050",
+    "name": "Vijay Dutta",
+    "age": 28,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-05)",
+    "bed": "Bed B-05",
+    "status": "Recovering",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Multi-organ dysfunction syndrome",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 74,
+      "SBP": 113,
+      "O2Sat": 99,
+      "overall_risk": 24
+    },
+    "vitals": {
+      "heartRate": 74,
+      "spo2": 99,
+      "respiratoryRate": 15,
+      "systolic": 113,
+      "diastolic": 76,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 24,
+      "sepsis": 14,
+      "cardiacArrest": 44,
+      "respiratoryFailure": 46,
+      "mortality": 11,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 47,
+    "medications": [
+      "Meropenem",
+      "Furosemide"
+    ],
+    "labs": [
+      "Lactate 2.8 mmol/L",
+      "WBC 13.7"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-05)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 21,
+        "detail": "Telemetry HR: 76 bpm, SpO2: 97%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 18,
+        "detail": "Diagnosis: Multi-organ dysfunction syndrome"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-050-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 76 bpm, BP 120/78 mmHg, SpO2 97%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-051",
+    "name": "Abhinav Trivedi",
+    "age": 35,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-06)",
+    "bed": "Bed C-06",
+    "status": "Recovering",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute anterior wall myocardial infarction",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 65,
+      "SBP": 114,
+      "O2Sat": 98,
+      "overall_risk": 25
+    },
+    "vitals": {
+      "heartRate": 65,
+      "spo2": 98,
+      "respiratoryRate": 16,
+      "systolic": 114,
+      "diastolic": 72,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 25,
+      "sepsis": 15,
+      "cardiacArrest": 22,
+      "respiratoryFailure": 23,
+      "mortality": 6,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 23,
+    "medications": [
+      "Vasopressin",
+      "Midazolam"
+    ],
+    "labs": [
+      "Lactate 2.0 mmol/L",
+      "WBC 10.6"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-06)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 10,
+        "detail": "Telemetry HR: 69 bpm, SpO2: 99%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 9,
+        "detail": "Diagnosis: Acute anterior wall myocardial infarction"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-051-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 69 bpm, BP 117/75 mmHg, SpO2 99%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-052",
+    "name": "Alok Aggarwal",
+    "age": 42,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-07)",
+    "bed": "Bed D-07",
+    "status": "Recovering",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Decompensated heart failure",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 66,
+      "SBP": 115,
+      "O2Sat": 99,
+      "overall_risk": 26
+    },
+    "vitals": {
+      "heartRate": 66,
+      "spo2": 99,
+      "respiratoryRate": 14,
+      "systolic": 115,
+      "diastolic": 73,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 26,
+      "sepsis": 16,
+      "cardiacArrest": 23,
+      "respiratoryFailure": 24,
+      "mortality": 6,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 24,
+    "medications": [
+      "Norepinephrine",
+      "Insulin (regular)"
+    ],
+    "labs": [
+      "Lactate 2.0 mmol/L",
+      "WBC 10.7"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-07)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 11,
+        "detail": "Telemetry HR: 70 bpm, SpO2: 98%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 9,
+        "detail": "Diagnosis: Decompensated heart failure"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-052-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 70 bpm, BP 118/76 mmHg, SpO2 98%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-053",
+    "name": "Brijesh Kapoor",
+    "age": 49,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Pulmonary Ward (Bed A-08)",
+    "bed": "Bed A-08",
+    "status": "Recovering",
+    "department": "Pulmonary Ward",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe pneumonia with hypoxemia",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 67,
+      "SBP": 116,
+      "O2Sat": 98,
+      "overall_risk": 27
+    },
+    "vitals": {
+      "heartRate": 67,
+      "spo2": 98,
+      "respiratoryRate": 15,
+      "systolic": 116,
+      "diastolic": 74,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 27,
+      "sepsis": 17,
+      "cardiacArrest": 24,
+      "respiratoryFailure": 25,
+      "mortality": 6,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 25,
+    "medications": [
+      "Furosemide",
+      "Ceftriaxone"
+    ],
+    "labs": [
+      "Lactate 2.0 mmol/L",
+      "WBC 10.9"
+    ],
+    "observations": [
+      "Admitted to Pulmonary Ward (Bed A-08)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 11,
+        "detail": "Telemetry HR: 71 bpm, SpO2: 99%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 10,
+        "detail": "Diagnosis: Severe pneumonia with hypoxemia"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-053-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 71 bpm, BP 119/77 mmHg, SpO2 99%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-054",
+    "name": "Chetan Verma",
+    "age": 56,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Trauma Unit (Bed B-09)",
+    "bed": "Bed B-09",
+    "status": "Recovering",
+    "department": "Trauma Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute necrotizing pancreatitis",
+    "admittedDays": 15,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 68,
+      "SBP": 117,
+      "O2Sat": 99,
+      "overall_risk": 28
+    },
+    "vitals": {
+      "heartRate": 68,
+      "spo2": 99,
+      "respiratoryRate": 16,
+      "systolic": 117,
+      "diastolic": 75,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 28,
+      "sepsis": 18,
+      "cardiacArrest": 25,
+      "respiratoryFailure": 26,
+      "mortality": 6,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 26,
+    "medications": [
+      "Midazolam",
+      "Heparin"
+    ],
+    "labs": [
+      "Lactate 2.1 mmol/L",
+      "WBC 11.0"
+    ],
+    "observations": [
+      "Admitted to Trauma Unit (Bed B-09)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 12,
+        "detail": "Telemetry HR: 72 bpm, SpO2: 98%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 10,
+        "detail": "Diagnosis: Acute necrotizing pancreatitis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-054-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 72 bpm, BP 120/72 mmHg, SpO2 98%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-055",
+    "name": "Dinesh Nair",
+    "age": 63,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Renal Care Unit (Bed C-10)",
+    "bed": "Bed C-10",
+    "status": "Recovering",
+    "department": "Renal Care Unit",
+    "hospitalId": "aiims",
+    "diagnosis": "Diabetic ketoacidosis with metabolic acidosis",
+    "admittedDays": 18,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 69,
+      "SBP": 118,
+      "O2Sat": 98,
+      "overall_risk": 29
+    },
+    "vitals": {
+      "heartRate": 69,
+      "spo2": 98,
+      "respiratoryRate": 14,
+      "systolic": 118,
+      "diastolic": 76,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 29,
+      "sepsis": 19,
+      "cardiacArrest": 26,
+      "respiratoryFailure": 26,
+      "mortality": 7,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 27,
+    "medications": [
+      "Insulin (regular)",
+      "Propofol"
+    ],
+    "labs": [
+      "Lactate 2.1 mmol/L",
+      "WBC 11.1"
+    ],
+    "observations": [
+      "Admitted to Renal Care Unit (Bed C-10)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 12,
+        "detail": "Telemetry HR: 73 bpm, SpO2: 99%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 11,
+        "detail": "Diagnosis: Diabetic ketoacidosis with metabolic acidosis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-055-1",
+        "time": "2026-09-06T21:54:59.192Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 73 bpm, BP 121/73 mmHg, SpO2 99%."
+      }
+    ],
+    "lastUpdated": 1788731699192
+  },
+  {
+    "id": "P-056",
+    "name": "Gaurav Rao",
+    "age": 70,
+    "sex": "M",
+    "gender": "Male",
+    "room": "General Medicine (Bed D-11)",
+    "bed": "Bed D-11",
+    "status": "Recovering",
+    "department": "General Medicine",
+    "hospitalId": "aiims",
+    "diagnosis": "Post-op abdominal surgery recovery",
+    "admittedDays": 1,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 70,
+      "SBP": 119,
+      "O2Sat": 99,
+      "overall_risk": 30
+    },
+    "vitals": {
+      "heartRate": 70,
+      "spo2": 99,
+      "respiratoryRate": 15,
+      "systolic": 119,
+      "diastolic": 72,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 30,
+      "sepsis": 20,
+      "cardiacArrest": 26,
+      "respiratoryFailure": 27,
+      "mortality": 7,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 28,
+    "medications": [
+      "Ceftriaxone",
+      "Fentanyl"
+    ],
+    "labs": [
+      "Lactate 2.1 mmol/L",
+      "WBC 11.2"
+    ],
+    "observations": [
+      "Admitted to General Medicine (Bed D-11)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 12,
+        "detail": "Telemetry HR: 66 bpm, SpO2: 98%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 11,
+        "detail": "Diagnosis: Post-op abdominal surgery recovery"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-056-1",
+        "time": "2026-09-06T21:54:59.193Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 66 bpm, BP 114/74 mmHg, SpO2 98%."
+      }
+    ],
+    "lastUpdated": 1788731699193
+  },
+  {
+    "id": "P-057",
+    "name": "Hemant Mehta",
+    "age": 77,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Cardiology ICU (Bed A-12)",
+    "bed": "Bed A-12",
+    "status": "Recovering",
+    "department": "Cardiology ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Polytrauma with bilateral rib fractures",
+    "admittedDays": 3,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 71,
+      "SBP": 112,
+      "O2Sat": 98,
+      "overall_risk": 31
+    },
+    "vitals": {
+      "heartRate": 71,
+      "spo2": 98,
+      "respiratoryRate": 16,
+      "systolic": 112,
+      "diastolic": 73,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 31,
+      "sepsis": 21,
+      "cardiacArrest": 27,
+      "respiratoryFailure": 28,
+      "mortality": 7,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 29,
+    "medications": [
+      "Heparin",
+      "Amiodarone"
+    ],
+    "labs": [
+      "Lactate 2.2 mmol/L",
+      "WBC 11.3"
+    ],
+    "observations": [
+      "Admitted to Cardiology ICU (Bed A-12)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 13,
+        "detail": "Telemetry HR: 67 bpm, SpO2: 99%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 11,
+        "detail": "Diagnosis: Polytrauma with bilateral rib fractures"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-057-1",
+        "time": "2026-09-06T21:54:59.193Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 67 bpm, BP 115/75 mmHg, SpO2 99%."
+      }
+    ],
+    "lastUpdated": 1788731699193
+  },
+  {
+    "id": "P-058",
+    "name": "Kunal Pillai",
+    "age": 26,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Medical ICU (Bed B-13)",
+    "bed": "Bed B-13",
+    "status": "Recovering",
+    "department": "Medical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Ischemic stroke with hemiparesis",
+    "admittedDays": 6,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 72,
+      "SBP": 113,
+      "O2Sat": 99,
+      "overall_risk": 32
+    },
+    "vitals": {
+      "heartRate": 72,
+      "spo2": 99,
+      "respiratoryRate": 14,
+      "systolic": 113,
+      "diastolic": 74,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 32,
+      "sepsis": 22,
+      "cardiacArrest": 28,
+      "respiratoryFailure": 29,
+      "mortality": 7,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 30,
+    "medications": [
+      "Propofol",
+      "Levofloxacin"
+    ],
+    "labs": [
+      "Lactate 2.2 mmol/L",
+      "WBC 11.5"
+    ],
+    "observations": [
+      "Admitted to Medical ICU (Bed B-13)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 13,
+        "detail": "Telemetry HR: 68 bpm, SpO2: 98%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 12,
+        "detail": "Diagnosis: Ischemic stroke with hemiparesis"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-058-1",
+        "time": "2026-09-06T21:54:59.193Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 68 bpm, BP 116/76 mmHg, SpO2 98%."
+      }
+    ],
+    "lastUpdated": 1788731699193
+  },
+  {
+    "id": "P-059",
+    "name": "Mayank Saxena",
+    "age": 33,
+    "sex": "F",
+    "gender": "Female",
+    "room": "Surgical ICU (Bed C-14)",
+    "bed": "Bed C-14",
+    "status": "Recovering",
+    "department": "Surgical ICU",
+    "hospitalId": "aiims",
+    "diagnosis": "Acute kidney injury on CRRT",
+    "admittedDays": 9,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 73,
+      "SBP": 114,
+      "O2Sat": 98,
+      "overall_risk": 33
+    },
+    "vitals": {
+      "heartRate": 73,
+      "spo2": 98,
+      "respiratoryRate": 15,
+      "systolic": 114,
+      "diastolic": 75,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 33,
+      "sepsis": 23,
+      "cardiacArrest": 29,
+      "respiratoryFailure": 30,
+      "mortality": 7,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 31,
+    "medications": [
+      "Fentanyl",
+      "Pantoprazole"
+    ],
+    "labs": [
+      "Lactate 2.2 mmol/L",
+      "WBC 11.6"
+    ],
+    "observations": [
+      "Admitted to Surgical ICU (Bed C-14)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 14,
+        "detail": "Telemetry HR: 69 bpm, SpO2: 99%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 12,
+        "detail": "Diagnosis: Acute kidney injury on CRRT"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-059-1",
+        "time": "2026-09-06T21:54:59.193Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 69 bpm, BP 117/77 mmHg, SpO2 99%."
+      }
+    ],
+    "lastUpdated": 1788731699193
+  },
+  {
+    "id": "P-060",
+    "name": "Naveen Dutt",
+    "age": 40,
+    "sex": "M",
+    "gender": "Male",
+    "room": "Neuro Intensive Care (Bed D-15)",
+    "bed": "Bed D-15",
+    "status": "Recovering",
+    "department": "Neuro Intensive Care",
+    "hospitalId": "aiims",
+    "diagnosis": "Severe asthma exacerbation",
+    "admittedDays": 12,
+    "admittingDoctor": "Dr. Rajesh Sharma, MD (AIIMS New Delhi)",
+    "telemetry": {
+      "HR": 74,
+      "SBP": 115,
+      "O2Sat": 99,
+      "overall_risk": 34
+    },
+    "vitals": {
+      "heartRate": 74,
+      "spo2": 99,
+      "respiratoryRate": 16,
+      "systolic": 115,
+      "diastolic": 76,
+      "temperature": 36.6
+    },
+    "risk": {
+      "overall": 34,
+      "sepsis": 24,
+      "cardiacArrest": 13,
+      "respiratoryFailure": 13,
+      "mortality": 3,
+      "trend": "stable"
+    },
+    "ecgRhythm": "normal sinus rhythm",
+    "sepsisScore": 14,
+    "medications": [
+      "Amiodarone",
+      "Meropenem"
+    ],
+    "labs": [
+      "Lactate 1.6 mmol/L",
+      "WBC 9.3"
+    ],
+    "observations": [
+      "Admitted to Neuro Intensive Care (Bed D-15)",
+      "Continuous AIIMS telemetry active"
+    ],
+    "factors": [
+      {
+        "label": "Physiological drift index",
+        "contribution": 6,
+        "detail": "Telemetry HR: 70 bpm, SpO2: 98%"
+      },
+      {
+        "label": "Clinical severity baseline",
+        "contribution": 5,
+        "detail": "Diagnosis: Severe asthma exacerbation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev-P-060-1",
+        "time": "2026-09-06T21:54:59.193Z",
+        "type": "vital",
+        "title": "AIIMS Telemetry Vitals Check",
+        "description": "Vitals recorded: HR 70 bpm, BP 118/72 mmHg, SpO2 98%."
+      }
+    ],
+    "lastUpdated": 1788731699193
+  }
+]

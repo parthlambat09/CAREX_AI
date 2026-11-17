@@ -1,0 +1,27 @@
+FROM python:3.10-slim
+
+# Install system dependencies required by LightGBM, SHAP, and C++ extensions
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libgomp1 \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app/backend
+
+# Copy requirements file first for layer caching
+COPY backend/requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy backend source code and trained ML models
+COPY backend /app/backend
+
+EXPOSE 8000
+
+ENV PYTHONUNBUFFERED=1 \
+    HOST=0.0.0.0 \
+    PORT=8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
